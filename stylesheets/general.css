@@ -19,7 +19,7 @@ a, p > span {
 }
 
 a:hover {
-	color: #e84d4d;;
+	color: #e84d4d;
 }
 
 td:first-child{
@@ -27,6 +27,7 @@ td:first-child{
 }
 
 footer {
+	padding-top: 30px;
 	margin-top: -10px;
 	width: 100%;
 	background-color: #f7B733;
@@ -38,7 +39,14 @@ footer {
 footer * {
 	color: white;
 	font-size: 20px;
+}
 
+footer a {
+	text-decoration: underline;
+}
+
+footer a:hover, footer i:hover {
+	color: #548042;
 }
 
 .logo img {
@@ -95,7 +103,7 @@ footer * {
 	width: 100vw;
 	border: 5px solid  #548042;
 	margin-bottom: 5px;
-	margin-top: -5px;
+	margin-top: 50px;
 }
 
 .social {
@@ -105,11 +113,7 @@ footer * {
 .social * {
 	padding-left: 5px;
 	padding-right: 5px;
-	font-size: 50px;
-}
-
-.social *:hover {
-	color: #548042;
+	font-size: 30px;
 }
 
 @media only screen  and (max-width: 40em) {
